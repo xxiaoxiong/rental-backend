@@ -15,10 +15,8 @@
     "env": {
         "NODE_ENV": "production"
     },
-    "functions": {
-        "api/**/*.js": {
-            "memory": 1024,
-            "maxDuration": 10
-        }
-    }
+    "buildCommand": "npm run build",
+    "outputDirectory": ".",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install"
 }
