@@ -1,0 +1,7 @@
+{
+  "watch": ["index.js", "src/**/*.js"],
+  "ignore": ["node_modules", "tests"],
+  "ext": "js,json",
+  "delay": "500",
+  "exec": "node index.js"
+} 
